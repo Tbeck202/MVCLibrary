@@ -51,7 +51,7 @@ Practicing Entity Framework
 * A new Migration file will be created
 * Package Manager Console -> `Update-Database`
 * Add new property display in relevant views (Index, create, Details, etc..)
-* Add new property to the ```c# [Bind]()``` arguments in the controller
+* Add new property to the `c# [Bind]()` arguments in the controller
     * In this case we added `Author` to `Create()`, `Edit()`, `Index()` methods in `BooksController` 
-    * like this: ```c# [Bind("Id,Title,CallNumber,Author")]```
+    * like this: `c# [Bind("Id,Title,CallNumber,Author")]`
      
