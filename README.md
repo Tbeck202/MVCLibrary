@@ -2,12 +2,6 @@
 Practicing Entity Framework
 
 ## Setting up Entity Framework
-<ul>
-    <li></li>
-    <li></li>
-</ul>
-
- 
      
 * Create Model class for your data (in this case, we have a Book class)
 * Tools -> NuGet Package Manager -> Package Manager Console
