@@ -30,7 +30,7 @@ Practicing Entity Framework
 * Package Manager Console -> Update-Database
     * (this command runs the `Up` method from `Migrations/..._InitialCreate.cs`)
 * Create link to the Index method in BooksController. `Views/Shared/_Layout.cshtml`.
-    * <a .... asp-controller="Books" asp-action="Index">Books</a>
+    * `<a .... asp-controller="Books" asp-action="Index">Books</a>`
       
 ## SEEDING THE DB
 * Models -> Add -> Class (in this case we called it `SeedData`) -> Add
@@ -51,7 +51,7 @@ Practicing Entity Framework
 * A new Migration file will be created
 * Package Manager Console -> `Update-Database`
 * Add new property display in relevant views (Index, create, Details, etc..)
-* Add new property to the `c# [Bind]()` arguments in the controller
+* Add new property to the `[Bind]()` arguments in the controller
     * In this case we added `Author` to `Create()`, `Edit()`, `Index()` methods in `BooksController` 
-    * like this: `c# [Bind("Id,Title,CallNumber,Author")]`
+    * like this: `[Bind("Id,Title,CallNumber,Author")]`
      
